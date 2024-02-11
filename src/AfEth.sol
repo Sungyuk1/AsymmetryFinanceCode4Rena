@@ -2,9 +2,9 @@
 pragma solidity 0.8.19;
 
 import "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol";
-import "contracts/strategies/votium/VotiumStrategy.sol";
-import "contracts/external_interfaces/IVotiumStrategy.sol";
-import "contracts/strategies/AbstractStrategy.sol";
+import "src/strategies/votium/VotiumStrategy.sol";
+import "src/external_interfaces/IVotiumStrategy.sol";
+import "src/strategies/AbstractStrategy.sol";
 
 // AfEth is the strategy manager for safEth and votium strategies
 contract AfEth is Initializable, OwnableUpgradeable, ERC20Upgradeable {
